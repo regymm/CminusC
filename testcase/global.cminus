@@ -1,0 +1,7 @@
+int xx;
+
+int main(void) {
+	xx = input();
+	output(xx);
+	return 0;
+}

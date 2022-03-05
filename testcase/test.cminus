@@ -1,0 +1,137 @@
+int arrrr[100];
+int hello;
+int xx;
+
+int gcd (int u, int v) {
+  if (v == 0) return u;
+  else return gcd(v, u - u / v * v);
+  v = 1;
+  return 0;
+}
+
+int ret(void) {
+	int i;
+	return i;
+	return i;
+}
+
+int assign(void) {
+	int i;
+	int j;
+	int k;
+	xx = 1;
+	k = i = j;
+	if(k = i = j) {
+		int l;
+	}
+	k = i < j;
+	return k;
+}
+
+int expr(void) {
+	int i;
+	int j;
+	int k;
+	int x;
+	i = input();
+	j = input();
+	k = input();
+	x = (i + j) * k + (j + k) * i + (k + i) * j;
+	return x;
+}
+
+void iff(void) {
+	int i;
+	int j;
+	if(i < j) {
+		int x;
+		int y;
+		x = 0;
+		return;
+	}
+	else {
+		int y;
+		int z;
+		y = 0;
+		return;
+	}
+	i = 1;
+	j = 0;
+	if(i < j) {
+		int x;
+		j = 2;
+	}
+	return;
+}
+
+void arr(int u, int v, int x[], int y[], int t) {
+	int xxx[100];
+	int yyy[100];
+	int zzz;
+	zzz = arrrr[10];
+	/*xxx[10] = 20;*/
+	/*xx[1] = 11;*/
+	/*y[12] = 13;*/
+	return;
+}
+
+void loop(void) {
+	int i;
+	int j;
+	i = 0;
+	j = 1;
+	while(i < 10) {
+		int z;
+		i = i + 1;
+		while(j < 10) {
+			int z;
+			j = j + 1;
+			return;
+		}
+	}
+	while(i < 10)
+		return;
+	return;
+}
+
+void main(void) {
+  int x;
+  int y;
+  int temp;
+  x = 1;
+  y = 100;
+  x = input();
+  y = input();
+  /*if (x == y) return;*/
+  /*if (x < y) {*/
+    /*temp = x;*/
+    /*x = y;*/
+    /*y = temp;*/
+  /*}*/
+  if ( x > y ) {
+	  int z;
+	  if(x > y) {
+		  int zz;
+		  x = 1;
+	  }
+	  else {
+		  int yy;
+		  x = 2;
+	  }
+	  {
+		  int t;
+	  }
+  }
+  else {
+	  int z;
+	  while(x == 1) {
+		  x = 2;
+	  }
+	  {
+		  int t;
+	  }
+  }
+  temp = gcd(x, y);
+  output(temp);
+  return;
+}

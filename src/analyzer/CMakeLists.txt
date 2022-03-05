@@ -1,0 +1,7 @@
+bison_target(syntax syntax_analyzer.y ${CMAKE_CURRENT_BINARY_DIR}/syntax_analyzer.c)
+flex_target(lex lexical_analyzer.l ${CMAKE_CURRENT_BINARY_DIR}/lex.yy.c)
+add_flex_bison_dependency(lex syntax)
+add_library(lex STATIC lexical_analyzer.c ${FLEX_lex_OUTPUTS})
+target_link_libraries(lex common)
+add_library(syntax STATIC ${BISON_syntax_OUTPUTS})
+target_link_libraries(syntax lex)

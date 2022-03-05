@@ -1,0 +1,17 @@
+int test(int i, int j, int k) {
+	output(i);
+	output(j);
+	output(k);
+	return i + j + k;
+}
+
+int main(void) {
+	int i;
+	int j;
+	int k;
+	i = input();
+	j = input();
+	k = input();
+	output(test(i, j, k));
+	return 0;
+}

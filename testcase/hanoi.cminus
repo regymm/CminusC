@@ -1,0 +1,21 @@
+int cnt;
+void move(int n, int a, int buf, int c) {
+	if(n == 1) {
+		cnt = cnt + 1;
+		output(a);
+		output(c);
+		output(0);
+		return;
+	}
+	move(n - 1, a, c, buf);
+	move(1, a, buf, c);
+	move(n - 1, buf, a, c);
+	return;
+}
+
+int main(void) {
+	cnt = 0;
+	move(4, 1, 2, 3, 4);
+	output(cnt);
+	return 0;
+}

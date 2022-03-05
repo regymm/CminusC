@@ -1,0 +1,28 @@
+/*int x[100];*/
+/*void dox(int x[]) {*/
+	/*x[1] = 999;*/
+	/*return;*/
+/*}*/
+int main(void) {
+	int i;
+	int n;
+	int x[100];
+	int tt;
+	i = n;
+	dox(x);
+	output(x[1]);
+	i = 0;
+	n = 1;
+	tt = 30 - i;
+	while(tt = 30 - i) {
+		/*x[i] = n;*/
+		i = i + 1;
+		n = n * 2;
+	}
+	/*i = 30;*/
+	/*while(i) {*/
+		/*i = i - 1;*/
+		/*[>output(x[i]);<]*/
+	/*}*/
+	return 0;
+}
